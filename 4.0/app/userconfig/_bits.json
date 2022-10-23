@@ -1,0 +1,11 @@
+{
+    "Bot1":{
+        "IsEnabled?": true
+    },
+    "Bot2": {
+        "IsEnabled?": false
+    },
+    "Bot3": {
+        "IsEnabled?": false
+    }
+}
