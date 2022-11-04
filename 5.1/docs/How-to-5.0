@@ -1,0 +1,44 @@
+How to use 5.0
+
+Go to ./configuration.js and you will see this
+
+```
+const C = {
+    user: {
+        Username: "John Doe",
+        Password: "",
+        Port: 200
+    },
+    bots: {
+        token1: "",
+        mainbot: true,
+        token2: "",
+        secbot: false,
+        token3: "",
+        thirdbot: false
+    }
+}
+module.exports = {
+    C
+}
+```
+
+in this pick a user name and password.
+
+and also do not change the port.
+
+in this section
+
+```
+    bots: {
+        token1: "",
+        mainbot: true,
+        token2: "",
+        secbot: false,
+        token3: "",
+        thirdbot: false
+    }
+```
+Fill in the mainbots token and leave it true ths will be your primary bot.
+
+then open terminal in the same folder then do npm run StartSyatem
