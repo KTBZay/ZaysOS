@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body onload="Welcome('<%=TOKEN1%>', '<%=ID1%>')">
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </body>
+  <section>
+    <h2>Your configuration</h2>
+    Main Token: <%= TOKEN1 %><br>
+    Main ID: <%= ID1 %><br>
+    Sec Token: <%= TOKEN2 %> <br>
+    Sec ID: <%=ID2 %> <br>
+  </section>
+  <script src="/javascripts/server.js"></script>
+</html>
